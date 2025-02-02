@@ -226,9 +226,6 @@ footer {
     font-size: 0.5rem;
   }
 
-  .container {
-  }
-
   .container_image {
     display: none;
   }
@@ -239,108 +236,5 @@ footer {
 
   .form_row {
     display: block;
-  }
-
-  .learn {
-    font-family: var(--ff-secondary);
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 3.5rem;
-    margin-bottom: 4rem;
-  }
-
-  .copyright {
-    font-size: 1rem;
-    font-weight: bold;
-  }
-
-  .next_steps {
-    margin-top: 0;
-    margin-bottom: 2rem;
-  }
-
-  .terms {
-    text-decoration: none;
-    color: #5c67f2;
-    font-weight: bold;
-  }
-
-  .alt-scholar {
-    text-align: end;
-  }
-
-  input,
-  label,
-  select,
-  option {
-    font-family: var(--ff-primary);
-  }
-
-  input,
-  select,
-  label {
-    margin-bottom: 1rem;
-  }
-
-  input,
-  input[type="date"] {
-    padding: 0.6rem 6rem 0.9rem 1rem;
-    width: 100%;
-    border: 1px solid #cbd5e0;
-    border-radius: 4px;
-  }
-
-  select {
-    padding: 0.6rem 7rem 0.9rem 1rem;
-    border: 1px solid #cbd5e0;
-    border-radius: 4px;
-  }
-
-  input::placeholder {
-    font-weight: bold;
-  }
-
-  input[type="submit"] {
-    background-color: #3585f5;
-    text-align: center;
-    color: var(--clr-light);
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-  }
-
-  body,
-  p {
-    font-family: var(--ff-primary);
-  }
-
-  h1,
-  h2 {
-    font-family: var(--ff-secondary);
-    font-size: var(--fs-h1);
-  }
-
-  p {
-    line-height: 2rem;
-    margin: 1rem 0;
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--clr-light);
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  li {
-    margin: 0 1rem;
-  }
-
-  footer {
-    text-align: center;
-    font-weight: bold;
   }
 }
