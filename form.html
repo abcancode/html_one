@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Tinyuka SOE HTML First Assignment | AltSchool Sign Up Form Clone
+    </title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav>
+        <ul class="dropdown-content" id="dropdownContent">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about-me">About</a></li>
+          <li><a href="index.html#bio-me">Bio</a></li>
+          <li><a href="index.html#alt-school">Why AltSchool</a></li>
+          <li><a href="index.html#soe-goals">Goals for SOE</a></li>
+          <li><a href="form.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="container_image">
+          <img src="../html_one/images/image.jpeg" />
+          <p class="learn">Learn highly sought after skills without hassle.</p>
+          <p class="copyright">
+            2025 &copy; AltSchool Africa. All rights reserved.
+          </p>
+        </div>
+        <div class="container_form">
+          <p class="alt-scholar">
+            Already an AltScholar?
+            <span><a href="" class="terms">Sign In!</a></span>
+          </p>
+          <h1>Signup</h1>
+          <p class="next_steps">
+            Take the next steps to apply at AltSchool Africa
+          </p>
+          <form action="">
+            <div class="form_row">
+              <div class="form_group">
+                <label for="">First Name</label>
+                <input type="text" placeholder="First Name" />
+              </div>
+              <div class="form_group">
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Last Name" />
+              </div>
+            </div>
+            <div class="form_row">
+              <div class="form_group">
+                <label for="">Email</label>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div class="form_group">
+                <label for="">Gender</label>
+                <select>
+                  <option value="">Select gender</option>
+                  <option value="">Male</option>
+                  <option value="">Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="form_row">
+              <div class="form_group">
+                <label for="">Date of Birth</label>
+                <input type="date" />
+              </div>
+              <div class="form_group">
+                <label for="">Phone Number</label>
+                <input type="text" placeholder="Phone Number" />
+              </div>
+            </div>
+            <div class="form_row">
+              <div class="form_group">
+                <label for="">Country of Residence</label>
+                <input type="text" placeholder="Country of Residence" />
+              </div>
+              <div class="form_group">
+                <label for="">State of Residence</label>
+                <input type="text" placeholder="State of Residence" />
+              </div>
+            </div>
+            <div class="form_row">
+              <div class="form_group">
+                <label for="">Password</label>
+                <input type="password" placeholder="Password" />
+              </div>
+              <div class="form_group">
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" />
+              </div>
+            </div>
+            <div class="form_group">
+              <label for="">How did you hear about us?</label>
+              <input
+                type="text"
+                placeholder="Optional: Let us know how you found us"
+              />
+            </div>
+            <p>
+              By clicking continue, I agree to
+              <span><a href="" class="terms">Terms of Use</a></span> and
+              acknowledge that I have read the
+              <span><a href="" class="terms">Privacy Policy</a></span
+              >.
+            </p>
+            <input type="submit" value="Signup" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      &copy; 2025 | 1 Van Daniel's Street, Lekki, Lagos | All rights reserved.
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        let dropdownContent = document.getElementById("dropdownContent");
+        dropdownContent.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
