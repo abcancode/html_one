@@ -125,7 +125,7 @@ input::placeholder {
   font-weight: bold;
 }
 
-input[type="submit"] {
+input.submit-btn {
   background-color: #3585f5;
   text-align: center;
   color: var(--clr-light);
@@ -236,5 +236,11 @@ footer {
 
   .form_row {
     display: block;
+  }
+
+  input.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
